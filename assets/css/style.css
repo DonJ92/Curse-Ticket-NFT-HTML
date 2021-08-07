@@ -113,6 +113,27 @@ button {
     font-size: 18px;
 }
 
+.twitter-share {
+    font-family: "Hoefler Text";
+}
+
+.button {
+    padding: 20px 60px;
+    cursor: pointer;
+
+    background: black;
+    color: white;
+    border: none;
+
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    text-decoration: none;
+    display: inline-block;
+}
+
 .align-center {
     text-align: center;
 }
