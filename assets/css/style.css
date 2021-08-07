@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url(../font/Sofia\ Pro\ Regular.ttf);
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Hoefler Text';
+    src: url(../font/Hoefler\ Text\ Regular.ttf);
+    font-display: fallback;
+}
+
+body {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    background: white;
+    color: black;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px 60px 60px;
+}
+
+.logo {
+    width: 97px;
+    height: 105px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.font-title {
+    font-family: "Hoefler Text";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+.font-sub-title {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+.main-div {
+    display: inline-flex;
+    margin: 40px 0 0;
+}
+
+.sec1-div {
+    margin: 0 15px;
+    text-align: left;
+    font-size: 18px;
+    width: 530px;
+}
+
+.ticket-video {
+    width: 530px;
+    height: 300px;
+}
+
+.sec2-div {
+    margin: 0 15px;
+    font-size: 14px;
+    width: 300px;
+}
+
+.ticket-info-div {
+    margin: 0 0 45px 0;
+}
+
+.font-ticket-info {
+    font-family: "Hoefler Text";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.font-ticket-number {
+    font-family: "Hoefler Text";
+    font-style: normal;
+    font-weight: 700;
+}
+
+button {
+    width: 225px;
+    height: 61px;
+    cursor: pointer;
+
+    background: black;
+    color: white;
+    border: none;
+
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
