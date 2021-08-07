@@ -23,7 +23,7 @@ body {
 .content {
     max-width: 1000px;
     margin: auto;
-    padding: 15px 60px 60px;
+    padding: 20px 60px;
 }
 
 .logo {
@@ -35,6 +35,10 @@ h1 {
     font-size: 42px;
 }
 
+h2 {
+    font-size: 36px;
+}
+
 h3 {
     font-size: 24px;
 }
@@ -42,19 +46,22 @@ h3 {
 .font-title {
     font-family: "Hoefler Text";
     font-style: normal;
-    font-weight: normal;
-    line-height: 150%;
+    font-weight: 700;
+    line-height: 100%;
+    width: 300px;
+    margin: 0 auto;
 }
 
 .font-sub-title {
     font-style: normal;
     font-weight: normal;
-    line-height: 150%;
+    line-height: 100%;
+    max-width: 500px;
+    margin: 25px auto;
 }
 
 .main-div {
     display: inline-flex;
-    margin: 40px 0 0;
 }
 
 .sec1-div {
@@ -66,7 +73,7 @@ h3 {
 
 .ticket-video {
     width: 530px;
-    height: 300px;
+    height: auto;
 }
 
 .sec2-div {
@@ -116,4 +123,53 @@ button {
 
 .m-0 {
     margin: 0;
+}
+
+@media only screen and (max-width: 1050px) {
+    .main-div {
+        display: block;
+        text-align: center;
+    }
+
+    .sec1-div {
+        text-align: center;
+        margin: 0 auto;
+        width: 530px;
+    }
+
+    .sec2-div {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 14px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .content {
+        padding: 20px;
+    }
+
+    .main-div {
+        display: block;
+        text-align: center;
+    }
+
+    .sec1-div {
+        text-align: center;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .ticket-video {
+        width: 300px;
+        height: auto;
+    }
+
+    .sec2-div {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 14px;
+        width: 300px;
+    }
 }
