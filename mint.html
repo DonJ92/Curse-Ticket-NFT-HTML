@@ -27,38 +27,18 @@
                     <H3 class="font-ticket-info">Tickets Remaining:</H3>
                     <H3 class="font-ticket-number"><span>900</span>/<span>1000</span></H3>
                 </div>
-                <button id="purchaseBtn" type="button">PURCHASE TICKET</button>
-                <p>You will connect your wallet, then be able to purchase tickets one at a time.</p>
-            </div>
-        </div>
-
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-              <p>Please connect the wallet. Do you want to connect?</p>
-              <button id="yes" type="button">Yes</button>
+                <button id="mintBtn" type="button">MINT YOUR TICKET</button>
+                <H3 class="total-ticket">Ticket Total: <span>3</span></H3>
+                <p>You can mint 1 ticket at a time. Maximum 10 tickets per wallet.</p>
             </div>
         </div>
     </section>
 
-    <script>
-        var modal = document.getElementById("myModal");
-        
-        var btn = document.getElementById("purchaseBtn");
-        
-        var yes_btn = document.getElementById("yes");
+    <script>        
+        var btn = document.getElementById("mintBtn");
         
         btn.onclick = function() {
-          modal.style.display = "block";
-        }
-        
-        yes_btn.onclick = function() {
-          location.href = 'mint.html'
-        }
-        
-        window.onclick = function(event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
-          }
+            location.href = 'received.html'
         }
     </script>
 </body>

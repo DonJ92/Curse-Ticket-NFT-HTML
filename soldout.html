@@ -25,16 +25,16 @@
             <div class="sec2-div">
                 <div class="ticket-info-div">
                     <H3 class="font-ticket-info">Tickets Remaining:</H3>
-                    <H3 class="font-ticket-number"><span>900</span>/<span>1000</span></H3>
+                    <H3 class="font-ticket-number"><span>0</span>/<span>1000</span></H3>
                 </div>
-                <button id="purchaseBtn" type="button">PURCHASE TICKET</button>
-                <p>You will connect your wallet, then be able to purchase tickets one at a time.</p>
+                <button id="purchaseBtn" type="button">SOLD OUT</button>
+                <p>The Curse Auction ticket sale has sold out. You can purchase a ticket on the secondary market here.</p>
             </div>
         </div>
 
         <div id="myModal" class="modal">
             <div class="modal-content">
-              <p>Please connect the wallet. Do you want to connect?</p>
+              <p>The tickets are already sold out.</p>
               <button id="yes" type="button">Yes</button>
             </div>
         </div>
@@ -52,7 +52,7 @@
         }
         
         yes_btn.onclick = function() {
-          location.href = 'mint.html'
+            modal.style.display = "none";
         }
         
         window.onclick = function(event) {
