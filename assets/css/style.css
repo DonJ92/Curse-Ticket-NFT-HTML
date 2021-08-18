@@ -252,4 +252,9 @@ button {
         font-size: 14px;
         width: 250px;
     }
+
+    .modal-content {
+        padding: 10px;
+        width: 250px;
+      }
 }
