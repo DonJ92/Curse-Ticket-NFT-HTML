@@ -224,3 +224,32 @@ button {
         width: 300px;
     }
 }
+
+@media only screen and (max-width: 450px) {
+    .content {
+        padding: 0px;
+    }
+
+    .main-div {
+        display: block;
+        text-align: center;
+    }
+
+    .sec1-div {
+        text-align: center;
+        margin: 0 auto;
+        width: 250px;
+    }
+
+    .ticket-video {
+        width: 250px;
+        height: auto;
+    }
+
+    .sec2-div {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 14px;
+        width: 250px;
+    }
+}
