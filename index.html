@@ -34,6 +34,13 @@
                 <p>You will connect your wallet, then be able to purchase tickets one at a time.</p>
             </div>
         </div>
+        <div id="selectModal" class="modal">
+            <div class="modal-content">
+              <p>Please select the wallet.</p>
+              <button id="metamask" type="button"><img src="./assets/img/metamask.svg" height="20px">&nbsp;MetaMask</button>
+              <button id="wallet_connect" type="button"><img src="./assets/img/walletconnect.svg" height="15px">&nbsp;Wallet Connect</button>
+            </div>
+        </div>
         <div id="myModal" class="modal">
             <div class="modal-content">
               <p>Please connect the wallet. Do you want to connect?</p>
@@ -43,7 +50,7 @@
     </section>
 
     <script>
-        var modal = document.getElementById("myModal");
+        var modal = document.getElementById("selectModal");
         
         var btn = document.getElementById("purchaseBtn");
         
